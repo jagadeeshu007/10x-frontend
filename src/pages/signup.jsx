@@ -47,7 +47,7 @@ function Signup() {
 
     // Submit data to backend
     try {
-      const res = await fetch("http://localhost:5000/api/signup", {
+      const res = await fetch("https://one0x-backend-1.onrender.com/api/signup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
