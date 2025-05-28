@@ -33,7 +33,7 @@ function Web() {
   useEffect(() => {
     const fetchProperties = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/properties");
+        const response = await fetch("https://one0x-backend-1.onrender.com/api/properties");
         if (!response.ok) throw new Error("Failed to fetch");
         const data = await response.json();
 
@@ -71,7 +71,7 @@ function Web() {
   const handleUpdate = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch(`http://localhost:5000/api/properties/${editFormData._id}`, {
+      const res = await fetch(`https://one0x-backend-1.onrender.com/api/properties/${editFormData._id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(editFormData),
@@ -169,7 +169,7 @@ function Web() {
                     <img
                       src={
                         property.imagePath
-                          ? `http://localhost:5000/${property.imagePath}`
+                          ? `https://one0x-backend-1.onrender.com/${property.imagePath}`
                           : "https://via.placeholder.com/40"
                       }
                       alt="property"
