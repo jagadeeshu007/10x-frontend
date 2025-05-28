@@ -1,15 +1,39 @@
-  .main-container-11{
+ .main-container-11{
    display:flex;
    width:100%;
 }
 
+.sidebar1{
+  background-color: #E1F9F4;
+  padding:50px;
+  
+  width:20%;
+
+}
+.logo1{
+  color:#1A1B1C;
+  margin-top: 0%;
+}
+
+.nav-item.active1{
+  color:#2289FF;
+
+}
+.nav-item{
+font-family: Source Sans Pro;
+font-weight: 100;
+font-size: 22px;
+  padding: 10px;
+line-height: 35px;
+color:#AAAAAA;
+letter-spacing: 0%;
+
+}
 .content-area1{
   width:100%;
   background-color:white;
 }
-/* .webdash-top{
-  border:2px solid red;
-} */
+
 .top-bar1 {
   display: flex;
   justify-content: space-between;
@@ -20,13 +44,11 @@
 }
 .p11{
   color:#B4B4C6;
-  padding: 15px;
-   margin: 15px;
+  padding: 20px;
 }
-.p22{
+.p21{
   color:#A6A6A6;
-  padding: 15px;
-  margin: 15px;
+  padding: 20px;
 }
 hr{
   background-color:#E1F9F4;
@@ -35,20 +57,20 @@ hr{
 }
 h3{
   color:#7D7D7D;
-  margin: 20px;
-  font-size: medium;
-
-} 
+  margin-top: 40px;
+  margin-left: 20px;;
+}
 
 
 .steps {
   display: flex;
   justify-content: space-between;
-  margin-left: 80px;
+  margin: 20px;
+  margin-left: 60px;
   background-color:#FFFFFF;
+  padding: 15px;
   border-radius: 50px;
   gap:100px;
-  font-size: small;
 }
 
 .step {
@@ -56,46 +78,54 @@ h3{
   text-align: left;
   background-color: #FFFFFF;
   border-radius: 6px;
+  padding:20px;
   color:#AAAAAA;
-  font-size: small;
   border-radius: 50px;
 }
 
 .step.active {
   background-color: #6AB4F8;
   color: white;
-  font-size:small;
-  padding-right: 0px;
+
+padding-right: 0px;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
 
 }
 .s11{
   color:#0F0F0F;
   background-color: #FFFFFF;
   border-radius: 50px;
-  margin-left: 0px; 
+  padding:10px;
+  margin-left: 0px;
+ 
 }
 .s111{
-  color:#A6A6A6;
+    color:#A6A6A6;
+    font-weight: 400;
   background-color:#E1F9F4;
   border-radius: 50px;
+  padding:5px;
   margin-left: 0px;
 }
 
 .form-container {
   background-color: #fff;
-  padding: 0px;
+  padding: 25px;
   border-radius: 10px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
-  margin-top: 0px;
-  margin-left: 50px;
-   margin-right: 30px;
+  margin-top: 20px;
+   margin-left: 70px;
+   
+   margin-right: 70px;
 }
 
 
 .form-row {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
- 
+  gap: 20px;
  
 }
 
@@ -115,6 +145,7 @@ h3{
 
 
 .form-group select {
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 14px;
@@ -126,11 +157,11 @@ h3{
   display: flex;
   justify-content: center;
   gap: 10px;
-
+  margin-top: 25px;
 }
 
 .btn {
-
+  padding: 10px 20px;
   border: none;
   border-radius: 6px;
   font-weight: 500;
