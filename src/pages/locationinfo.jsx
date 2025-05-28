@@ -127,7 +127,7 @@ function Locationinfo() {
         formData.append("image", imageFile);
       }
 
-      const response = await fetch("http://localhost:5000/api/properties/add", {
+      const response = await fetch("https://one0x-backend-1.onrender.com/api/properties/add", {
         method: "POST",
         body: formData,
       });
