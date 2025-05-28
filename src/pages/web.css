@@ -27,14 +27,12 @@ body, html {
 }
 .p1 {
   color: #B4B4C6;
-  padding: 15px;
-  margin: 15px;
+  padding: 20px;
+  margin: 20px;
 }
 
 .p2 {
   color: #A6A6A6;
-  padding: 15px;
-  margin: 15px;
 }
 
 .webdash-search-bar {
