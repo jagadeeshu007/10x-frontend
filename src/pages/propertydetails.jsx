@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import "./propertydetails.css";
-import Sidebar from "./Sidebar";
+import Sidebar from "./sidebar";
 
 function Propertydetails() {
   const navigate = useNavigate();

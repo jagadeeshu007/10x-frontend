@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import "./generalinfo.css";
-import Sidebar from "./Sidebar";
+import Sidebar from "./sidebar";
 
 function Generalinfo() {
   const navigate = useNavigate();
